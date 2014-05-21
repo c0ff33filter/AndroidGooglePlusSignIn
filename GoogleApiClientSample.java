@@ -20,7 +20,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 
 @SuppressLint("NewApi")
-public class GoogleFragment extends Fragment implements ConnectionCallbacks,
+public class GoogleApiClientSample extends Fragment implements ConnectionCallbacks,
 		OnConnectionFailedListener {
 	
 	public static final int RC_SIGN_IN = 9009;
